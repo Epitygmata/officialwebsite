@@ -1,17 +1,22 @@
+.body {
+  margin: 0px;
+}
+
 .linebreak {
      display: block;
 }
 
 .banniere {
-     background-color: #245362;
-     margin-top: 0px;
-     margin-bottom: 0px;
-}
-.banniere {
   background-color: #245362;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 10px;
+  margin: 0px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 20px;
 }
 /* Parametres généraux*/
 .liensutiles span{
@@ -109,4 +114,5 @@
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 0px;
+  margin-top: -10px;
 }

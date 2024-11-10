@@ -1,0 +1,39 @@
+/*Index.html animations*/
+
+.star-rating1:hover {
+     color: #666;
+     /* couleur sur hover */
+     cursor: default;
+}
+
+.star-rating1[data-rating="1"] {
+     color: #FF0000;
+     /* rouge pour 1 étoile */
+}
+
+.star-rating1[data-rating="2"] {
+     color: #FF9900;
+     /* orange pour 2 étoiles */
+}
+
+.star-rating1[data-rating="3"] {
+     color: #FFFF00;
+     /* jaune pour 3 étoiles */
+}
+
+.star-rating1[data-rating="4"] {
+     color: #00CC00;
+     /* vert pour 4 étoiles */
+}
+
+.star-rating1[data-rating="5"] {
+     color: #dfc44d;
+     /* bleu pour 5 étoiles */
+}
+
+.buttonforms:hover {
+     color: #ffffff;
+     background-color: rgb(22, 107, 124);
+     cursor: pointer;
+     transform: scale(1.2);
+}
