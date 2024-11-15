@@ -1,4 +1,4 @@
-/* Je ferais le responsive design à la fin, la je fais le design sur mobile */
+/* Je ferais le responsive design à la fin, la je fais le design sur PC */
 body {
   margin: 0px;
   overflow-x: hidden;
@@ -332,8 +332,8 @@ hr {
   text-align: center;
 }
 .slogan img{
-  width: 600px;
-  height: auto;
+  width: auto;
+  height: 400px;
   margin-top: 40px;
   margin-left: 40px;
   margin-bottom: 0px;

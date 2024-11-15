@@ -7,94 +7,134 @@
      <link rel="stylesheet" href="../Stylesheets/boutique.css">
      <link rel="stylesheet" href="../Stylesheets/banniere.css">
      <link rel="stylesheet" href="../Stylesheets/recherche.css">
+     <link rel="stylesheet" href="../Stylesheets/animations.css">
 
 </head>
 <body>
     
      <section class="barrerech">
           <nav class="barrederecherche">
-               <img src="../img/signaturewbackground.png" alt="signature" class="signaturebarrerech">
+               <a href="https://discord.gg/zU85us4KnS"><img src="../img/logodiscord.jpg" alt="signature"
+                         class="signaturebarrerech"></a>
                <a href="avis.html" class="avisrech">Avis </a>
                <a href="index.html" class="indexrech">Page d'accueil </a>
                <a href="boutique.html" class="boutiquerech">Boutique </a>
                <!--<a href="contact.html" class="contactrech">Contactez-nous</a>-->
-               <a href="contact.html"><img src="../img/comment.png" class="imagecommentrech"></a>
+               <a href="contact.html" class="contactrech">Contactez-Nous</a>
           </nav>
+          <style>
+               .indexrech{
+                    background-color: #ffffff;
+                    color: #000000;
+               }
+               .indexrech:hover{
+                    color: #000000;
+                    background-color: rgb(14, 162, 210);
+               }
+               .avisrech {
+                    background-color: #ffffff;
+                    color: #000000;
+               }
+               .avisrech:hover {
+                    color: #000000;
+                    background-color: rgb(14, 162, 210);
+               }
+               .boutiquerech{
+                    background-color: rgb(14, 162, 210);
+                    color: #000000;
+               }
+               .boutiquerech:hover{
+                    color: #ffffff;
+                    background-color: rgb(14, 162, 210);
+               }
+          </style>
      </section>
     
      <!--<span class="linebreak"></span>-->
      <main>
           <h1>Nos produits</h1>
           <p>
-               Nos produits sont livrés dans les temps que <span class="linebreak"></span> vous nous donnez. Nous y mettrons toutes<span class="linebreak"></span> nos connaissances, notre savoir-faire et notre<span class="linebreak"></span> passion, afin que vous puissiez voir vos rêves<span class="linebreak"></span>
-               devenir réalités. Contactez nous par mail, <a href="https://discord.gg/nKmrsHdQ4v">discord</a> <span class="linebreak"></span>ou sur <a href="commande.html">cette page</a> pour nous détailler votre<span class="linebreak"></span> commande, plus elle sera détaillée, plus nous<span class="linebreak"></span> pourrons rester fidèle à vos rêves.
+               Nos produits sont livrés dans les temps imposés. Nous y mettrons toutes nos connaissances, notre savoir-faire et notre passion,
+               <br>
+               afin que
+               vous puissiez voir vos rêves
+               devenir réalités. Contactez nous par mail, <a href="https://discord.gg/nKmrsHdQ4v">discord</a> ou sur <a href="commande.html">cette page</a> pour nous détailler
+               <br>
+               votre commande,
+               plus elle sera détaillée, plus nous pourrons rester fidèle à vos rêves.
           </p>
      </main>
 
      <hr width="60%" />
 <!--hr (Horizontal right) permet de faire une ligne séparatrice-->
 
-     <section class="carouselboutique">
-          
-          <header>
-               <h1>Offres Sites web</h1>
-          </header>
 
-          <div class="carouselboutique-items">
-               <div class="offrepremiumsite">
-                    <h2 class="cardboutiquetitle1"> Offre "Premium"</h2>
-                    <p class="priceone">
-                         <span class="price">60€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
-                    </p>
-                    <h3>Cette offre premium est parfaite pour les petits <span class="linebreak"></span>business qui souhaitent se lancer, ou si vos <span class="linebreak"></span>projets ont besoin de reconnaissance !</h3>
-                    <p class="textpremiumsite">
-                         Comprend 8 pages, un SEO (Search Engine Optimisation)<span class="linebreak"></span> sur la page, l'intégration
-                         Google Maps et du téléchargement<span class="linebreak"></span> de contenu. <span class="italic">Comprend également l'offre "basique".</span>
-                         <span class="linebreak"></span>
-                    </p>
-                    <div>
-                         <a href="commande.html" class="boutonboutique">Contactez-nous</a>
-                    </div>
+     <header>
+          <h1>Offres Sites web</h1>
+     </header>
+     <section class="sitesweb">
+
+          <div class="tableaugris">
+               <h2 class="titletbgris">Offre "Premium"</h2>
+               <p class="prixtbgris">
+                    <span class="price">60</span><span class="bold">.00€</span> <span class="linebreak"></span>
+                    <span class="italic">À partir de</span>
+               </p>
+               <h3>Offre parfaite pour les petits business ou pour montrer vos projets!</h3>
+               <p class="linestbgris">🎱 8 pages</p>
+               <p class="linestbgris">✔️ SEO (Search Engine Optimization)</p>
+               <p class="linestbgris">✔️ Intégration Google Maps</p>
+               <p class="linestbgris">✔️ Téléchargement de contenu</p>
+               <p class="linestbgris">❌ Page de paiement</p>
+               <p class="linestbgris">❌ Onglet de connexion</p>
+               <p class="linetbgrisspecial">Développement en 8 - 12 jours ouvrés.</p>
+               <div>
+                    <a href="commande.html" class="boutonboutique">Commandez maintenant</a>
                </div>
-               
-               <div class="offreprosite">
-                    <h2 class="cardboutiquetitle2">Offre "Pro"</h2>
-                    <p class="pricetwo">
-                         <span class="price">Uniquement sur devis</span>
-                    </p>
-                    <h3>L'offre Pro vous permettra de développer votre business ou votre projet, en recevant des paiements et en proposant des services !</h3>
-                    <p class="textprosite">
-                         Cette offre comprend l'offre "Premium" avec 15 pages, une page de paiement, des plugins illimités, un onglet de
-                         connexion et un panier.
-                    </p>
-                    <div>
-                         <a href="commande.html" class="boutonboutique">Commencez votre aventure</a>
-                    </div>
+          </div>
+
+          <div class="tableaudark">
+               <h2 class="titletbdark">Offre "Pro"</h2>
+               <p class="prixtbdark">
+                    <span class="price">Uniquement sur devis</span>
+               </p>
+               <h3>Développez votre business, votre projet et recevez des paiements!</h3>
+               <p class="linestbdark">✨Précédentes offres incluses!</p>
+               <p class="linestbdark">✔️ 15 pages</p>
+               <p class="linestbdark">✔️ Page de paiement/panier</p>
+               <p class="linestbdark">✔️ Plugins illimités</p>
+               <p class="linetbdarkspecial">Développement selon cahier des charges.</p>
+               <div>
+                    <a href="commande.html" class="boutonboutique">Commandez-ici</a>
                </div>
-               
-               <div class="offrebasiquesite">
-                    <h2 class="cardboutiquetitle3">Offre "basique"</h2>
-                    <p class="pricethree">
-                         <span class="price">40€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
-                    </p>
-                    <h3>Une offre basique, pour vos sites entres amis ou pour vos projets scolaires.</h3>
-                    <p class="textbasiquesite">
-                         Cette offre comprend 5 pages, elle est réactive avec des items réactifs (boutons, etc.).
-                         3 Plugins et/ou extensions sont inclus avec.
-                    </p>
-                    <div>
-                         <a href="commande.html" class="boutonboutique">Contactez-nous !</a>
-                    </div>
+          </div>
+
+          <div class="tableaubright">
+               <h2 class="titletbbright">Offre "basique"</h2>
+               <p class="prixtbbright">
+                    <span class="price">40</span><span class="bold">.00€</span> <span class="linebreak"></span>
+                    <span class="italic">À partir de</span>
+               </p>
+               <h3>Une offre basique pour vos sites entre amis ou projets scolaires.</h3>
+               <p class="linestbbright">✨Page réactives</p>
+               <p class="linestbbright">✋ 5 pages</p>
+               <p class="linestbbright">✔️ 3 plugins/extensions inclues</p>
+               <p class="linestbbright">❌ Page de paiement</p>
+               <p class="linestbbright">❌ Téléchargement de contenu</p>
+               <p class="linetbbrightspecial">Développement en 3 - 5 jours ouvrés.</p>
+               <div>
+                    <a href="commande.html" class="boutonboutique">Contactez-nous</a>
                </div>
           </div>
      </section>
      
      <hr width="60%" size="2 px"/>
      
+
+     <header>
+          <h1>Développement de Bot Discord</h1>
+     </header>
      <section class="botdiscord">
-          <header>
-               <h1>Développement de Bot Discord</h1>
-          </header>
           
           <div class="tableaugris">
                <h2 class="titletbgris">Bot de Modération</h2>
@@ -149,10 +189,10 @@
 
 <hr width="60%">
 
+     <header>
+          <h1>Développement de Serveurs Minecraft</h1>
+     </header>
      <section class="devservmc">
-          <header>
-               <h1>Développement de Serveurs Minecraft</h1>
-          </header>
 
           <div class="tableaugris">
                <h2 class="titletbgris">Offre "Peaceful"</h2>
@@ -219,10 +259,10 @@
 
 <hr width="60%" />
 
+     <header>
+          <h1>Pré-config minecraft et discord</h1>
+     </header>
      <section class="preconfig">
-          <header>
-               <h1>Pré-config minecraft et discord</h1>
-          </header>
 
           <div class="preconfigdiscord">
                <h2>Pré-config discord</h2>
@@ -262,6 +302,11 @@
      </section>
 
 <hr width="60%">
+
+
+     <header>
+          <h1>Plugins Minecraft</h1>
+     </header>
 
      <section class="devplugins">
 
@@ -357,57 +402,59 @@
 
      </section>
 
-     <section class="banniere">
+     <div class="banniere">
           <div class="liensutiles">
                <p>
-                    <div><span class="bannieretitle">Liens utiles</span><span class="linebreak"></span></div>
-                    <a href="index.html" class="lienbanniere">Page d'accueil</a><span class="linebreak"></span>
-                    <a href="commande.html" class="lienbanniere">Commandez ici!</a><span class="linebreak"></span>
-                    <a href="boutique.html" class="lienbanniere">Nos Services</a><span class="linebreak"></span>
-                    <a href="detailservices.html" class="lienbanniere">Tarifs Détaillés</a><span class="linebreak"></span>
-                    <a href="credits.html" class="lienbanniere">Crédits</a><span class="linebreak"></span>
-                    <a href="contact.html" class="lienbanniere">Contactez-nous</a><span class="linebreak"></span>
+               <div><span class="bannieretitle">Liens utiles</span><span class="linebreak"></span></div>
+               <a href="index.html" class="lienbanniere">Page d'accueil</a><span class="linebreak"></span>
+               <a href="commande.html" class="lienbanniere">Commandez ici!</a><span class="linebreak"></span>
+               <a href="boutique.html" class="lienbanniere">Nos Services</a><span class="linebreak"></span>
+               <a href="detailservices.html" class="lienbanniere">Tarifs Détaillés</a><span class="linebreak"></span>
+               <a href="credits.html" class="lienbanniere">Crédits</a><span class="linebreak"></span>
+               <a href="contact.html" class="lienbanniere">Contactez-nous</a><span class="linebreak"></span>
                </p>
           </div>
           <div class="aproposdenous">
                <p>
-                   <span class="bannieretitle">À propos de nous</span>
-                   <span class="linebreak"></span>
+                    <span class="bannieretitle">À propos de nous</span>
+                    <span class="linebreak"></span>
                </p>
                <p class="bannieretextpropos">
-                   Lancé en 2020, EPITYGMATA vous propose de donner vie à vos idées, que
-                   ce soit en développant ou en vous proposant des services de graphisme.
-                   <span class="linebreak"></span>
-                   <span class="citationgael">"Nous essayons de vous proposer l'expérience la plus transparente et
-                   agréable possible, n'hésitez pas à nous laisser un avis pour témoigner de
-                   votre expérience chez nous !"</span>
-                   <span class="linebreak"></span>
+                    Lancé en 2020, EPITYGMATA vous propose de donner vie à vos idées,
+                    <br>
+                    que ce soit en développant ou en vous proposant des services de graphisme.
+                    <br>
+                    <span class="citationgael">"Nous essayons de vous proposer l'expérience la plus transparente et
+                         agréable possible,
+                         <br> n'hésitez pas à nous laisser un avis pour témoigner de votre expérience chez nous !"</span>
+                    <span class="linebreak"></span>
                </p>
                <p class="gaelcitation">
-                   - Gaël Tournier, CEO d'EPITYGMATA.
+                    - Gaël Tournier, CEO d'EPITYGMATA.
                </p>
-           </div>
+          </div>
           <div class="nousjoindre">
                <p>
-                    <span class="nousjoindrebannieretitle">Nous joindre</span> 
-                    <div>
-                              <img src="../img/comment.png" alt="icone comment" class="iconcomment">
-                              <a href="contact.html">Contactez-nous</a>
-                    </div>
-                    <div>
-                              <img src="../img/email.png" alt="icône email" class="iconmail">
-                              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gael.tournier@epitygmata.fr">gael.tournier@epitygmata.fr</a>
-                    </div>
-                    <div>
-                              <img src="../img/discord.png" alt="icône discord" class="icondiscord">
-                              <a href="https://discord.gg/nKmrsHdQ4v">Rejoins notre discord !</a>
-                    </div>
+                    <span class="nousjoindrebannieretitle">Nous joindre</span>
+               <div>
+                    <img src="../img/comment.png" alt="icone comment" class="iconcomment">
+                    <a href="contact.html">Contactez-nous</a>
+               </div>
+               <div>
+                    <img src="../img/email.png" alt="icône email" class="iconmail">
+                    <a
+                         href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gael.tournier@epitygmata.fr">gael.tournier@epitygmata.fr</a>
+               </div>
+               <div>
+                    <img src="../img/discord.png" alt="icône discord" class="icondiscord">
+                    <a href="https://discord.gg/nKmrsHdQ4v">Rejoins notre discord !</a>
+               </div>
                </p>
           </div>
-          <div class="copyright">
-               <p>Copyright © Epitygmata </p>
-          </div>
-     </section>
+     </div>
+     <div class="copyright">
+          <p>Copyright © Epitygmata </p>
+     </div>
 
 
 
