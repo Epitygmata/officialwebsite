@@ -53,37 +53,82 @@ header {
      text-decoration: none;
      color: #ffffff;
 }
+
+
+
 /*Flexbox for the cards*/
 .sitesweb { 
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
      align-items: start;
+     gap: 30px;
 }
 
 .botdiscord {
      display: flex;
-     justify-content: space-around;
-     align-items: start;
+          justify-content: center;
+          align-items: start;
+          gap: 30px;
 }
 
 .devservmc {
      display: flex;
-     justify-content: space-around;
-     align-items: start;
+          justify-content: center;
+          align-items: start;
+          gap: 30px;
 }
 
 .devplugins {
      display: flex;
-     justify-content: space-around;
-     align-items: start;
+          justify-content: center;
+          align-items: start;
+          gap: 30px;
+}
+.graphismesec {
+     display: flex;
+          justify-content: center;
+          align-items: start;
+          gap: 30px;
 }
 
-/*Block Text (pre-config)*/
-.imagediscord {
-     width: auto;
-     height: 100px;
-} 
+/*Flexbox for préconfigs*/
 
+.preconfigdiscord {
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     gap: 30px;
+}
+
+.preconfigmc {
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     gap: 30px;
+}
+
+.disccontainer {
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     width: 50%;
+}
+.mccontainer {
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     width: 50%;
+}
+
+
+
+/*Block Text (pre-config)*/
+
+.disccontainer h2{
+     margin-left: 100px;
+}
 .tmprcpdsc {
      display: flex;
      align-items: center;
@@ -144,17 +189,14 @@ header {
 
 .imagediscord {
      width: auto;
-     height: 250px;
-     margin-top: 30px;
-     margin-left: 15px;
+     height: 300px;
 }
 
 
 .imagemc {
      width: auto;
-     height: 250px;
-     margin-top: 100px;
-     margin-left: 15px;
+     height: 300px;
+     margin-top: 30px;
 }
 
 .preconfigmc h2{
@@ -164,12 +206,6 @@ header {
      margin-left: 10px;
 }
 
-.decoffres {
-     text-decoration: underline;
-     font-weight: 400;
-     font-size: 27px;
-     margin-left: 10px;
-}
 
 .tmprcpmc {
      display: flex;
@@ -246,7 +282,7 @@ header {
           background-color: rgb(218, 221, 224);
           padding-bottom: 20px; 
           margin-bottom: 30px;
-          width: 30%;
+          width: 25%;
      }
      .titletbgris {
           border: 1px solid #cccfd1;
@@ -316,7 +352,7 @@ header {
                background-color: rgb(35,80,95);
                padding-bottom: 20px; 
                margin-bottom: 30px;
-               width: 30%;
+               width: 25%;
           }
           .titletbdark {
                border: 1px solid #456d79;
@@ -388,7 +424,7 @@ header {
           background-color: rgb(108,177,179);
           padding-bottom: 20px; 
           margin-bottom: 30px;
-          width: 30%;
+          width: 25%;
      }
      .titletbbright {
           border: 1px solid #f1f8f8;
@@ -439,19 +475,20 @@ header {
           border-left: 0px;
           border-right: 0px;
           padding-bottom: 6px;
-          padding-top: 10px;
+          padding-top: 11px;
           background-color: #ffffff;
           margin: 0px;
      }
      .linetbbrightspecial {
-          color: #000000
+          color: #000000;
+          font-style: italic;
+          padding-bottom: 20px;
      }
+
      .tableaubrightdiv {
           padding-top: 20px;
      }
 
-
-/*Hover et animations*/
-.boutonboutique:hover {
-     background-color: rgb(57, 99, 96);
+.preconfig {
+     margin-bottom: 40px;
 }

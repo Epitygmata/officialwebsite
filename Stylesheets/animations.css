@@ -55,3 +55,10 @@
      cursor: pointer;
      transform: scale(1.2);
 }
+
+
+/*Boutique animations*/
+
+.boutonboutique:hover {
+     background-color: rgb(57, 99, 96);
+}
