@@ -15,5 +15,5 @@ TODO:
 Palette: 
 rgb(14,162,210) (bleu clair)
 #1e899e (bleu foncé)
-#185763 (couleur titres)
+#373d44 (couleur titres)
 rgb(33,37,41) (couleur texte)
