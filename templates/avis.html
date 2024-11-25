@@ -5,17 +5,38 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="../Stylesheets/avis.css">
      <link rel="stylesheet" href="../Stylesheets/recherche.css">
+     <link rel="stylesheet" href="../Stylesheets/banniere.css">
+     <link rel="stylesheet" href="../Stylesheets/animations.css">
      <title>Avis | Epitygmata</title>
 </head>
 <body>
      <section class="barrerech">
           <nav class="barrederecherche">
-               <img src="../img/signaturewbackground.png" alt="signature" class="signaturebarrerech">
+               <a href="https://discord.gg/zU85us4KnS"><img src="../img/logodiscord.jpg" alt="signature" class="signaturebarrerech"></a>
                <a href="avis.html" class="avisrech">Avis </a>
                <a href="index.html" class="indexrech">Page d'accueil </a>
                <a href="boutique.html" class="boutiquerech">Boutique </a>
                <!--<a href="contact.html" class="contactrech">Contactez-nous</a>-->
-               <a href="contact.html"><img src="../img/comment.png" class="imagecommentrech"></a>
+               <a href="contact.html" class="contactrech">Contactez-Nous</a>
+          <style>
+               .indexrech{
+                    background-color: #ffffff;
+                    color: #000000;
+               }
+               .indexrech:hover{
+                    color: #000000;
+                    background-color: rgb(14, 162, 210);
+               }
+               .avisrech{
+                    background-color: rgb(14, 162, 210);
+                    color: #000000;
+               }
+               .avisrech:hover{
+                    color: #ffffff;
+                    background-color: rgb(10, 130, 170);
+               }
+          </style>
+          
           </nav>
      </section>
 
@@ -58,7 +79,7 @@
                     <p class="titleatover">Bilal</p>
                </div>
           </div>
-          
+
           <div class="avis">
                <img src="../img/planteenpot.jpg" alt="plante magnifique en pot ! " class="cactusmain">
                <h2 class="titlemainavis">Rapidité</h2>
@@ -79,15 +100,18 @@
 <!--Copié collé du dossier index.html-->
 
      <section class="laissezavis">
-          <h1>Laissez nous un avis!</h1>
-          <p>Vous avez commandé ? Laissez nous un avis<span class="linebreak"></span> et nous l'afficherons !</p>
+          <div class="laissezaviscontainer">
+               <h1>Laissez nous un avis!</h1>
+               <p>Vous avez commandé ? Laissez nous un avis<span class="linebreak"></span> et nous l'afficherons !</p>
+          </div>
           <a href="contact.html">Avis</a>
      </section>
 
 <!--Banniere C/C-->
-<section class="banniere">
-     <div class="liensutiles">
-          <p>
+<section>
+     <div class="banniere">
+          <div class="liensutiles">
+               <p>
                <div><span class="bannieretitle">Liens utiles</span><span class="linebreak"></span></div>
                <a href="index.html" class="lienbanniere">Page d'accueil</a><span class="linebreak"></span>
                <a href="commande.html" class="lienbanniere">Commandez ici!</a><span class="linebreak"></span>
@@ -95,42 +119,46 @@
                <a href="detailservices.html" class="lienbanniere">Tarifs Détaillés</a><span class="linebreak"></span>
                <a href="credits.html" class="lienbanniere">Crédits</a><span class="linebreak"></span>
                <a href="contact.html" class="lienbanniere">Contactez-nous</a><span class="linebreak"></span>
-          </p>
-     </div>
-     <div class="aproposdenous">
-          <p>
-              <span class="bannieretitle">À propos de nous</span>
-              <span class="linebreak"></span>
-          </p>
-          <p class="bannieretextpropos">
-              Lancé en 2020, le projet EPITYGMATA vous propose de donner vie à vos idées, que
-              ce soit en développant ou en vous proposant des services de graphisme.
-              <span class="linebreak"></span>
-              <span class="citationgael">"Nous essayons de vous proposer l'expèrience la plus transparente et
-              agréable possible, n'hésitez pas à nous laisser un avis pour témoigner de
-              votre expérience chez nous !"</span>
-              <span class="linebreak"></span>
-          </p>
-          <p class="gaelcitation">
-              - Gaël Tournier, leader du projet EPITYGMATA.
-          </p>
-      </div>
-     <div class="nousjoindre">
-          <p>
-               <span class="nousjoindrebannieretitle">Nous joindre</span> 
+               </p>
+          </div>
+          <div class="aproposdenous">
+               <p>
+                    <span class="bannieretitle">À propos de nous</span>
+                    <span class="linebreak"></span>
+               </p>
+               <p class="bannieretextpropos">
+                    Lancé en 2020, EPITYGMATA vous propose de donner vie à vos idées,
+                    <br>
+                    que ce soit en développant ou en vous proposant des services de graphisme.
+                    <br>
+                    <span class="citationgael">"Nous essayons de vous proposer l'expérience la plus transparente et
+                         agréable possible,
+                         <br> n'hésitez pas à nous laisser un avis pour témoigner de votre expérience chez nous
+                         !"</span>
+                    <span class="linebreak"></span>
+               </p>
+               <p class="gaelcitation">
+                    - Gaël Tournier, CEO d'EPITYGMATA.
+               </p>
+          </div>
+          <div class="nousjoindre">
+               <p>
+                    <span class="nousjoindrebannieretitle">Nous joindre</span>
                <div>
-                         <img src="../img/comment.png" alt="icone comment" class="iconcomment">
-                         <a href="contact.html">Contactez-nous</a>
+                    <img src="../img/comment.png" alt="icone comment" class="iconcomment">
+                    <a href="contact.html">Contactez-nous</a>
                </div>
                <div>
-                         <img src="../img/email.png" alt="icône email" class="iconmail">
-                         <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gael.tournier@epitygmata.fr">gael.tournier@epitygmata.fr</a>
+                    <img src="../img/email.png" alt="icône email" class="iconmail">
+                    <a
+                         href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gael.tournier@epitygmata.fr">gael.tournier@epitygmata.fr</a>
                </div>
                <div>
-                         <img src="../img/discord.png" alt="icône discord" class="icondiscord">
-                         <a href="https://discord.gg/zU85us4KnS">Rejoins notre discord !</a>
+                    <img src="../img/discord.png" alt="icône discord" class="icondiscord">
+                    <a href="https://discord.gg/nKmrsHdQ4v">Rejoins notre discord !</a>
                </div>
-          </p>
+               </p>
+          </div>
      </div>
      <div class="copyright">
           <p>Copyright © Epitygmata </p>

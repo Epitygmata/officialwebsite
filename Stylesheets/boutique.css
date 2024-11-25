@@ -9,16 +9,16 @@ body {
 main h1{
      text-align: center;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     font-size: 40px;
+     font-size: 70px;
      font-weight: 500;
 }
 
 main p{
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      text-align: left;
-     font-size: 16px;
+     font-size: 20px;
      padding-bottom: 30px;
-     margin-left: 80px;
+     margin-left: 400px;
 }
 
 main a{
@@ -27,7 +27,7 @@ main a{
 header {
      text-align: center;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     font-size: 30px;
+     font-size: 35px;
      font-weight: 500;
      padding-bottom: 50px;
 }
@@ -38,80 +38,14 @@ header {
 .underline {
      text-decoration: underline;
 }
-
-/* first Card for the carousel*/
-.offrepremiumsite {
-     text-align: center;
-     border: 1px solid #cccfd1;
-     border-radius: 10px;
-     margin-left: 5px;
-     background-color: rgb(218, 221, 224);
-     padding-bottom: 20px;
-} 
-
-
-.cardboutiquetitle1 {
-     border: 1px solid #cccfd1;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     border-top: 0px;
-     border-top-left-radius: 10px;
-     border-top-right-radius: 10px;
-     background-color: rgb(218, 221, 224);
-     margin-top: 0px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     font-size: 25px;
-     margin: 0px;
-}
-
-.priceone {
-     border: 1px solid #cccfd1;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     padding-bottom: 10px;
-     padding-top: 15px;
-     background-color: #ffffff;
-     margin: 0px;
-}
-
 .price {
      font-size: 50px;
      font-weight: 700;
 }
-
 .italic {
      font-style: italic;
      font-size: 13px;
 }
-
-.offrepremiumsite h3 {
-     border: 1px solid #cccfd1;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     background-color: #ffffff;
-     padding-bottom: 10px;
-     padding-top: 10px;
-     text-decoration: none;
-     font-weight: 400;
-     font-size: 19px;
-     margin: 0px;
-}
-
-.textpremiumsite {
-     border: 1px solid #cccfd1;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     padding-bottom: 10px;
-     padding-top: 15px;
-     background-color: #ffffff;
-     margin: 0px;
-}
-
 .boutonboutique { 
      background-color: rgb(68,117,114);
      border-radius: 10px;
@@ -119,149 +53,82 @@ header {
      text-decoration: none;
      color: #ffffff;
 }
-.offrepremiumsite div{
-     padding-top: 20px;
+
+
+
+/*Flexbox for the cards*/
+.sitesweb { 
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     gap: 30px;
 }
 
-/*Card boutique 2*/
-
-.offreprosite {
-     text-align: center;
-     border: 1px solid #456d79;
-     border-radius: 10px;
-     margin-left: 5px;
-     background-color: rgb(35,80,95);
-     padding-bottom: 20px; 
-     margin-top: 10px;
-}
-.cardboutiquetitle2 {
-     border: 1px solid #456d79;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     border-top: 0px;
-     border-top-left-radius: 10px;
-     border-top-right-radius: 10px;
-     background-color: rgb(35,80,95);
-     margin-top: 0px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     font-size: 25px;
-     margin: 0px;
-     color: #ffffff;
-}
-.pricetwo {
-     border: 1px solid #456d79;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     padding-bottom: 10px;
-     padding-top: 15px;
-     background-color: #eaeef0;
-     margin: 0px;
-}
-.offreprosite h3 {
-     border: 1px solid #456d796b;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     background-color: #ffffff;
-     padding-bottom: 10px;
-     padding-top: 10px;
-     text-decoration: none;
-     font-weight: 400;
-     font-size: 19px;
-     margin: 0px;
-}
-.textprosite {
-     border: 1px solid #456d7975;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     padding-bottom: 10px;
-     padding-top: 10px;
-     background-color: #ffffff;
-     margin: 0px;
-}
-.offreprosite a{
-     color: #ffffff
-}
-.offreprosite div {
-     padding-top: 20px;
+.botdiscord {
+     display: flex;
+          justify-content: center;
+          align-items: start;
+          gap: 30px;
 }
 
-/*card boutique website 3*/
-.offrebasiquesite {
-     text-align: center;
-     border: 1px solid #456d79;
-     border-radius: 10px;
-     margin-left: 5px;
-     background-color: rgb(108,177,179);
-     padding-bottom: 20px; 
-     margin-top: 10px;
+.devservmc {
+     display: flex;
+          justify-content: center;
+          align-items: start;
+          gap: 30px;
 }
-.cardboutiquetitle3 {
-     border: 1px solid #f1f8f8;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     border-top: 0px;
-     border-top-left-radius: 10px;
-     border-top-right-radius: 10px;
-     background-color: rgb(108,177,179);
-     margin-top: 0px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     font-size: 25px;
-     margin: 0px;
-     color: #000000;
+
+.devplugins {
+     display: flex;
+          justify-content: center;
+          align-items: start;
+          gap: 30px;
 }
-.pricethree {
-     border: 1px solid #456d79;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     padding-bottom: 10px;
-     padding-top: 15px;
-     background-color: #f1f8f8;
-     margin: 0px;
+.graphismesec {
+     display: flex;
+          justify-content: center;
+          align-items: start;
+          gap: 30px;
 }
-.offrebasiquesite h3 {
-     border: 1px solid #456d796b;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     background-color: #ffffff;
-     padding-bottom: 10px;
-     padding-top: 10px;
-     text-decoration: none;
-     font-weight: 400;
-     font-size: 19px;
-     margin: 0px;
+
+/*Flexbox for préconfigs*/
+
+.preconfigdiscord {
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     gap: 30px;
 }
-.textbasiquesite {
-     border: 1px solid #456d7975;
-     border-top: 0px;
-     border-left: 0px;
-     border-right: 0px;
-     padding-bottom: 10px;
-     padding-top: 10px;
-     background-color: #ffffff;
-     margin: 0px;
+
+.preconfigmc {
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     gap: 30px;
 }
-.offrebasiquesite a{
-     color: #ffffff
+
+.disccontainer {
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     width: 50%;
 }
-.offrebasiquesite div{
-     padding-top: 20px;
+.mccontainer {
+     flex-direction: column;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     width: 50%;
 }
+
+
 
 /*Block Text (pre-config)*/
-.imagediscord {
-     width: auto;
-     height: 100px;
-} 
 
+.disccontainer h2{
+     margin-left: 100px;
+}
 .tmprcpdsc {
      display: flex;
      align-items: center;
@@ -322,17 +189,14 @@ header {
 
 .imagediscord {
      width: auto;
-     height: 250px;
-     margin-top: 30px;
-     margin-left: 15px;
+     height: 300px;
 }
 
 
 .imagemc {
      width: auto;
-     height: 250px;
-     margin-top: 100px;
-     margin-left: 15px;
+     height: 300px;
+     margin-top: 30px;
 }
 
 .preconfigmc h2{
@@ -342,12 +206,6 @@ header {
      margin-left: 10px;
 }
 
-.decoffres {
-     text-decoration: underline;
-     font-weight: 400;
-     font-size: 27px;
-     margin-left: 10px;
-}
 
 .tmprcpmc {
      display: flex;
@@ -424,6 +282,7 @@ header {
           background-color: rgb(218, 221, 224);
           padding-bottom: 20px; 
           margin-bottom: 30px;
+          width: 25%;
      }
      .titletbgris {
           border: 1px solid #cccfd1;
@@ -493,6 +352,7 @@ header {
                background-color: rgb(35,80,95);
                padding-bottom: 20px; 
                margin-bottom: 30px;
+               width: 25%;
           }
           .titletbdark {
                border: 1px solid #456d79;
@@ -564,6 +424,7 @@ header {
           background-color: rgb(108,177,179);
           padding-bottom: 20px; 
           margin-bottom: 30px;
+          width: 25%;
      }
      .titletbbright {
           border: 1px solid #f1f8f8;
@@ -614,19 +475,20 @@ header {
           border-left: 0px;
           border-right: 0px;
           padding-bottom: 6px;
-          padding-top: 10px;
+          padding-top: 11px;
           background-color: #ffffff;
           margin: 0px;
      }
      .linetbbrightspecial {
-          color: #000000
+          color: #000000;
+          font-style: italic;
+          padding-bottom: 20px;
      }
+
      .tableaubrightdiv {
           padding-top: 20px;
      }
 
-
-/*Hover et animations*/
-.boutonboutique:hover {
-     background-color: rgb(57, 99, 96);
+.preconfig {
+     margin-bottom: 40px;
 }

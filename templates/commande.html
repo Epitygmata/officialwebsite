@@ -4,38 +4,106 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Commandez</title>
+     <link rel="stylesheet" href="../Stylesheets/commande.css">
+     <link rel="stylesheet" href="../Stylesheets/recherche.css">
+     <link rel="stylesheet" href="../Stylesheets/banniere.css">
+
+     <style>
+          .indexrech {
+               background-color: #ffffff;
+               color: #000000;
+          }
+     
+          .indexrech:hover {
+               color: #000000;
+               background-color: rgb(14, 162, 210);
+          }
+     
+          .avisrech {
+               background-color: #ffffff;
+               color: #000000;
+          }
+     
+          .avisrech:hover {
+               color: #000000;
+               background-color: rgb(14, 162, 210);
+          }
+     
+          .boutiquerech {
+               background-color: rgb(14, 162, 210);
+               color: #000000;
+          }
+     
+          .boutiquerech:hover {
+               color: #ffffff;
+               background-color: rgb(10, 130, 170);
+          }
+     </style>
 </head>
 <body>
+     <section class="barrerech">
+          <nav class="barrederecherche">
+               <a href="https://discord.gg/zU85us4KnS"><img src="../img/logodiscord.jpg" alt="signature"
+                         class="signaturebarrerech"></a>
+               <a href="avis.html" class="avisrech">Avis </a>
+               <a href="index.html" class="indexrech">Page d'accueil </a>
+               <a href="boutique.html" class="boutiquerech">Boutique </a>
+               <!--<a href="contact.html" class="contactrech">Contactez-nous</a>-->
+               <a href="contact.html" class="contactrech">Contactez-Nous</a>
+          </nav>
+     </section>
+
+
+
+
+
+
+
+
+     <div class="lignerel"></div>
      <section class="processpaiement">
+          
           <div class="commandezcmd">
-               <img src="../img/panier.png" alt="icone panier" class="iconepanier">
-               <h2>Commander</h2>
-               <p>Commandez via le formulaire ci-dessous ou sur notre discord!</p>
+               <div class="bgone">
+                    <img src="../img/grocery-store.png" alt="icone panier" class="iconepanier">
+               </div>
+               <h2>Commandez</h2>
+               <p class="textcmd">
+                    Commandez via le formulaire ci-dessous ou sur notre discord!
+               </p>
           </div>
+
           <div class="deverouillezcmd">
-               <img src="../img/cadenas.png" alt="cadenas icone" class="iconecadenas">
-               <h2>Déverrouiller la</h2>
-               <h2>commande</h2>
-               <p>
-                    <div>Déverrouillez la commande en nous</div>
-                    <div> transmettant le cahier des charges, votre</div>
-                    <div>budget ainsi que le temps imparti pour la</div>
-                    <div>réalisation de votre commande!</div>
+               <div class="bgtwo">
+                    <img src="../img/cadenas-verrouille.png" alt="cadenas icone" class="iconecadenas">
+               </div>
+               <h2>Validez</h2>
+               <p class="textcmd">
+                    Validez la commande en nous transmettant le cahier des charges, votre
+                    budget ainsi que le temps imparti pour la réalisation de votre commande!
                </p>
           </div>
+          
           <div class="payercmd">
-               <img src="../img/pay-pal.png" alt="paypal icone" class="iconepaypal">
-               <h2>Payer</h2>
-               <p>Payez l'acompte de votre commande.</p>
-          </div>
-          <div>
-               <img src="../img/avion.png" alt="icone avion" class="iconeavion">
-               <h2>Soyez livré!</h2>
-               <p>
-                    <div>Nous nous mettons au travail! Nous vous</div>
-                    <div>rendrons votre projet dans quelques</div>
-                    <div>jours !</div>
+               <div class="bgthree">
+                    <img src="../img/pay-pal.png" alt="paypal icone" class="iconepaypal">
+               </div>
+               <h2>Payez</h2>
+               <p class="textcmd">
+                    Payez l'acompte de votre commande.
                </p>
+          </div>
+          
+          <div class="shipcmd">
+               <div class="bgfour">
+                    <img src="../img/avion (1).png" alt="icone avion" class="iconeavion">
+               </div>
+               <h2>Soyez livré!</h2>
+               <p class="textcmd">
+                    Nous nous mettons au travail! Nous vous rendrons votre projet dans quelques
+                    jours!
+               </p>
+          
           </div>
      </section>
 
@@ -47,32 +115,107 @@
 
      <section class="form-commande">
           <form action="" method="post" class="form-commande">
+               
                <div class="form-commande1">
                     <label for="name">Votre nom</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" class="ineput" required>
                </div>
-               <div class="form-commande2">
+               <div class="form-commande1">
                     <label for="pseudo">Votre @ discord</label>
-                    <input type="text" id="pseudo" name="pseudo" pattern="@[a-zA-Z0-9.]+">
+                    <input type="text" id="pseudo" name="pseudo" class="ineput" pattern="@[a-zA-Z0-9.]+">
                </div>
-               <div class="form-commande3">
+
+               <div class="form-commande1">
                     <label for="email">Votre Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" class="ineput"
+                    placeholder="L'email est obligatoire pour qu'on puisse vous contacter." 
+                    required>
                </div>
-               <div class="form-commande4">
+
+               <div class="form-commande1">
                     <label for="service"> Le/les service(s) choisis</label>
-                    <input type="text" id="service" name="service" required>
+                    <input type="text" id="service" name="service" class="ineput" required>
                </div>  
-               <div class="form-commande5">
-                    <label for="deadline">Temps imparti pour la commande</label>
-                    <input type="date" id="deadline" name="deadline">
+
+               <div class="form-commande1">
+                    <label for="budget">Votre budget</label>
+                    <input type="text" id="budget" name="budget" class="ineput"
+                    placeholder="Nous adaptons nos prix à vos budgets (hors prix fixe et hors abus), alors laissez nous un budget ;)"
+                     required>
                </div>
-               <div class="form-commande6">
+               <div class="form-commande1">
+                    <label for="deadline">Temps imparti pour la commande</label>
+                    <input type="date" id="deadline" name="deadline" class="ineput">
+               </div>
+
+               <div class="form-commande1">
                     <label for="descprojet"> Décrivez votre projet en détails</label>
                     <textarea id="descprojet" name="descprojet" required-rows="3" rows="4" cols="40"></textarea>
                </div>
+
                <input type="submit" value="Envoyer!" class="commandesubmit">
           </form>
+     </section>
+
+
+
+
+
+     <section>
+          <div class="banniere">
+               <div class="liensutiles">
+                    <p>
+                    <div><span class="bannieretitle">Liens utiles</span><span class="linebreak"></span></div>
+                    <a href="index.html" class="lienbanniere">Page d'accueil</a><span class="linebreak"></span>
+                    <a href="commande.html" class="lienbanniere">Commandez ici!</a><span class="linebreak"></span>
+                    <a href="boutique.html" class="lienbanniere">Nos Services</a><span class="linebreak"></span>
+                    <a href="detailservices.html" class="lienbanniere">Tarifs Détaillés</a><span class="linebreak"></span>
+                    <a href="credits.html" class="lienbanniere">Crédits</a><span class="linebreak"></span>
+                    <a href="contact.html" class="lienbanniere">Contactez-nous</a><span class="linebreak"></span>
+                    </p>
+               </div>
+               <div class="aproposdenous">
+                    <p>
+                         <span class="bannieretitle">À propos de nous</span>
+                         <span class="linebreak"></span>
+                    </p>
+                    <p class="bannieretextpropos">
+                         Lancé en 2020, EPITYGMATA vous propose de donner vie à vos idées,
+                         <br>
+                         que ce soit en développant ou en vous proposant des services de graphisme.
+                         <br>
+                         <span class="citationgael">"Nous essayons de vous proposer l'expérience la plus transparente et
+                              agréable possible,
+                              <br> n'hésitez pas à nous laisser un avis pour témoigner de votre expérience chez nous
+                              !"</span>
+                         <span class="linebreak"></span>
+                    </p>
+                    <p class="gaelcitation">
+                         - Gaël Tournier, CEO d'EPITYGMATA.
+                    </p>
+               </div>
+               <div class="nousjoindre">
+                    <p>
+                         <span class="nousjoindrebannieretitle">Nous joindre</span>
+                    <div>
+                         <img src="../img/comment.png" alt="icone comment" class="iconcomment">
+                         <a href="contact.html">Contactez-nous</a>
+                    </div>
+                    <div>
+                         <img src="../img/email.png" alt="icône email" class="iconmail">
+                         <a
+                              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gael.tournier@epitygmata.fr">gael.tournier@epitygmata.fr</a>
+                    </div>
+                    <div>
+                         <img src="../img/discord.png" alt="icône discord" class="icondiscord">
+                         <a href="https://discord.gg/nKmrsHdQ4v">Rejoins notre discord !</a>
+                    </div>
+                    </p>
+               </div>
+          </div>
+          <div class="copyright">
+               <p>Copyright © Epitygmata </p>
+          </div>
      </section>
      
 </body>

@@ -4,44 +4,190 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>EPITYGMATA | Contactez-nous</title>
+     <link rel="stylesheet" href="../Stylesheets/animations.css">
+     <link rel="stylesheet" href="../Stylesheets/contact.css">
+     <link rel="stylesheet" href="../Stylesheets/banniere.css">
+     <link rel="stylesheet" href="../Stylesheets/recherche.css">
+
+     <style>
+          .indexrech {
+               background-color: #ffffff;
+               color: #000000;
+          }
+     
+          .indexrech:hover {
+               color: #000000;
+               background-color: rgb(14, 162, 210);
+          }
+     
+          .avisrech {
+               background-color: #ffffff;
+               color: #000000;
+          }
+     
+          .avisrech:hover {
+               color: #000000;
+               background-color: rgb(14, 162, 210);
+          }
+     
+          .boutiquerech {
+               background-color: #ffffff;
+               color: #000000;
+          }
+     
+          .boutiquerech:hover {
+               color: #000000;
+               background-color: rgb(14, 162, 210);
+          }
+          .contactrech {
+               background-color: rgb(14, 162, 210);
+               color: #000000;
+          }
+          .contactrech:hover {
+               color: #ffffff;
+               background-color: rgb(10, 130, 170);
+          }
+     </style>
 </head>
 <body>
      <main>
-          <h2>Contactez-nous</h2>
-          <p>
-               <div><i>Vous avez un avis? Vous avez une quelconque question? Vous souhaitez obtenir des renseignements?</i></div>
-               <div>Contactez-nous via ce formulaire en précisant un maximum votre projet pour que l'on puisse vous fournir l' assistance la</div>
-               <div>plus personnalisée possible.</div>
-               <span><i>Pour une réponse et une prise en charge plus rapide, rejoignez notre <a href="https://discord.gg/nKmrsHdQ4v">serveur discord</a>.</i></span>
-          </p>
+          <!-- Recherche -->
+          <section class="barrerech">
+               <nav class="barrederecherche">
+                    <a href="https://discord.gg/zU85us4KnS"><img src="../img/logodiscord.jpg" alt="signature"
+                              class="signaturebarrerech"></a>
+                    <a href="avis.html" class="avisrech">Avis </a>
+                    <a href="index.html" class="indexrech">Page d'accueil </a>
+                    <a href="boutique.html" class="boutiquerech">Boutique </a>
+                    <!--<a href="contact.html" class="contactrech">Contactez-nous</a>-->
+                    <a href="contact.html" class="contactrech">Contactez-Nous</a>
+               </nav>
+          </section>
+
+
+
+
+          <!-- Contact -->
+          <hr />
+          <div class="megaflex">
+               <div class="container2">
+                    <p class="titlejoin">
+                         Nous joindre:
+                    </p>
+                    <p class="contact">
+                         <a href="https://discord.gg/nKmrsHdQ4v">Discord</a>
+                         <br>
+                         <img src="../img/email.png" alt="icône email" class="iconmail">
+                         gael.tournier@epitygmata.fr
+                    </p>
+               </div>
+               <div class="containercont">
+                    
+                    <p class="titlecont">Contactez-nous</p>
+                    <p class="textcont">
+                         Vous avez un avis? Vous avez une quelconque question? Vous souhaitez obtenir des renseignements?
+                         <br>
+                         Contactez-nous via ce formulaire en précisant un maximum votre projet pour que l'on puisse vous fournir
+                         <br>
+                         l' assistance la plus personnalisée possible.
+                         <br>
+                         Pour une réponse et une prise en charge plus rapide, rejoignez notre <a href="https://discord.gg/nKmrsHdQ4v">serveur discord</a>.
+                    </p>
+               </div>
+          </div>
      </main>
-     <section>
-          <form action="" method="post" class="form-contact"> 
-               <div class="form-contact1">
-                    <label for="name">Nom/Pseudo:</label>
-                    <input type="text" name="name" id="name" required />
+     <section class="form-commande">
+          <form action="" method="post" class="form-commande">
+     
+               <div class="form-commande1">
+                    <label for="name">Votre nom/pseudo*</label>
+                    <input type="text" id="name" name="name" class="ineput" required>
                </div>
-               <div class="form-contact2">
-                    <label for="atName">Identifiant discord:</label>
-                    <input type="text" id="atName" name="atName" pattern="@[a-zA-Z0-9.]+" required>
-                    <div><i>votre pseudo doit commencer avec "@"</i></div>
+               <div class="form-commande1">
+                    <label for="pseudo">Votre @ discord</label>
+                    <input type="text" id="pseudo" name="pseudo" class="ineput" pattern="@[a-zA-Z0-9.]+">
                </div>
-               <div class="form-contact3">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+     
+               <div class="form-commande1">
+                    <label for="email">Votre Email*</label>
+                    <input type="email" id="email" name="email" class="ineput"
+                         placeholder="L'email est obligatoire pour qu'on puisse vous contacter." required>
                </div>
-               <div class="form-contact4">
-                    <label for="title">Titre</label>
-                    <input type="text" id="title" name="title" required>
+     
+               <div class="form-commande1">
+                    <label for="service"> Sujet du problème*</label>
+                    <input type="text" id="service" name="service" class="ineput" required>
                </div>
-               <div class="form-contact5">
-                    <label for="commentaire">Avis ou commentaire:</label>
-                    <textarea name="commentaire" id="commentaire" required-rows="3" cols="40"></textarea>
+
+               <div class="form-commande1">
+                    <label for="descprojet"> Décrivez votre requête</label>
+                    <textarea id="descprojet" name="descprojet" required-rows="3" rows="4" cols="40"></textarea>
                </div>
-               <div class="submitform">
-                    <input type="submit" value="Envoyer!" />
-               </div>
+     
+               <input type="submit" value="Envoyer!" class="commandesubmit">
           </form>
-     </section>    
+     </section>
+
+
+
+
+
+<!-- Bannière -->
+     <section>
+          <div class="banniere">
+               <div class="liensutiles">
+                    <p>
+                    <div><span class="bannieretitle">Liens utiles</span><span class="linebreak"></span></div>
+                    <a href="index.html" class="lienbanniere">Page d'accueil</a><span class="linebreak"></span>
+                    <a href="commande.html" class="lienbanniere">Commandez ici!</a><span class="linebreak"></span>
+                    <a href="boutique.html" class="lienbanniere">Nos Services</a><span class="linebreak"></span>
+                    <a href="detailservices.html" class="lienbanniere">Tarifs Détaillés</a><span class="linebreak"></span>
+                    <a href="credits.html" class="lienbanniere">Crédits</a><span class="linebreak"></span>
+                    <a href="contact.html" class="lienbanniere">Contactez-nous</a><span class="linebreak"></span>
+                    </p>
+               </div>
+               <div class="aproposdenous">
+                    <p>
+                         <span class="bannieretitle">À propos de nous</span>
+                         <span class="linebreak"></span>
+                    </p>
+                    <p class="bannieretextpropos">
+                         Lancé en 2020, EPITYGMATA vous propose de donner vie à vos idées,
+                         <br>
+                         que ce soit en développant ou en vous proposant des services de graphisme.
+                         <br>
+                         <span class="citationgael">"Nous essayons de vous proposer l'expérience la plus transparente et
+                              agréable possible,
+                              <br> n'hésitez pas à nous laisser un avis pour témoigner de votre expérience chez nous
+                              !"</span>
+                         <span class="linebreak"></span>
+                    </p>
+                    <p class="gaelcitation">
+                         - Gaël Tournier, CEO d'EPITYGMATA.
+                    </p>
+               </div>
+               <div class="nousjoindre">
+                    <p>
+                         <span class="nousjoindrebannieretitle">Nous joindre</span>
+                    <div>
+                         <img src="../img/comment.png" alt="icone comment" class="iconcomment">
+                         <a href="contact.html">Contactez-nous</a>
+                    </div>
+                    <div>
+                         <img src="../img/email.png" alt="icône email" class="iconmail">
+                         <a
+                              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gael.tournier@epitygmata.fr">gael.tournier@epitygmata.fr</a>
+                    </div>
+                    <div>
+                         <img src="../img/discord.png" alt="icône discord" class="icondiscord">
+                         <a href="https://discord.gg/nKmrsHdQ4v">Rejoins notre discord !</a>
+                    </div>
+                    </p>
+               </div>
+          </div>
+          <div class="copyright">
+               <p>Copyright © Epitygmata </p>
+          </div>
+     </section>
 </body>
 </html>

@@ -7,106 +7,147 @@
      <link rel="stylesheet" href="../Stylesheets/boutique.css">
      <link rel="stylesheet" href="../Stylesheets/banniere.css">
      <link rel="stylesheet" href="../Stylesheets/recherche.css">
+     <link rel="stylesheet" href="../Stylesheets/animations.css">
 
 </head>
 <body>
     
      <section class="barrerech">
           <nav class="barrederecherche">
-               <img src="../img/signaturewbackground.png" alt="signature" class="signaturebarrerech">
+               <a href="https://discord.gg/zU85us4KnS"><img src="../img/logodiscord.jpg" alt="signature"
+                         class="signaturebarrerech"></a>
                <a href="avis.html" class="avisrech">Avis </a>
                <a href="index.html" class="indexrech">Page d'accueil </a>
                <a href="boutique.html" class="boutiquerech">Boutique </a>
                <!--<a href="contact.html" class="contactrech">Contactez-nous</a>-->
-               <a href="contact.html"><img src="../img/comment.png" class="imagecommentrech"></a>
+               <a href="contact.html" class="contactrech">Contactez-Nous</a>
           </nav>
+          <style>
+               .indexrech{
+                    background-color: #ffffff;
+                    color: #000000;
+               }
+               .indexrech:hover{
+                    color: #000000;
+                    background-color: rgb(14, 162, 210);
+               }
+               .avisrech {
+                    background-color: #ffffff;
+                    color: #000000;
+               }
+               .avisrech:hover {
+                    color: #000000;
+                    background-color: rgb(14, 162, 210);
+               }
+               .boutiquerech{
+                    background-color: rgb(14, 162, 210);
+                    color: #000000;
+               }
+               .boutiquerech:hover{
+                    color: #ffffff;
+                    background-color: rgb(10, 130, 170);
+               }
+          </style>
      </section>
     
      <!--<span class="linebreak"></span>-->
      <main>
           <h1>Nos produits</h1>
           <p>
-               Nos produits sont livrés dans les temps que <span class="linebreak"></span> vous nous donnez. Nous y mettrons toutes<span class="linebreak"></span> nos connaissances, notre savoir-faire et notre<span class="linebreak"></span> passion, afin que vous puissiez voir vos rêves<span class="linebreak"></span>
-               devenir réalités. Contactez nous par mail, <a href="https://discord.gg/nKmrsHdQ4v">discord</a> <span class="linebreak"></span>ou sur <a href="commande.html">cette page</a> pour nous détailler votre<span class="linebreak"></span> commande, plus elle sera détaillée, plus nous<span class="linebreak"></span> pourrons rester fidèle à vos rêves.
+               Nos produits sont livrés dans les temps imposés. Nous y mettrons toutes nos connaissances, notre savoir-faire et notre passion,
+               <br>
+               afin que
+               vous puissiez voir vos rêves
+               devenir réalités. Contactez nous par mail, <a href="https://discord.gg/nKmrsHdQ4v">discord</a> ou sur <a href="commande.html">cette page</a> pour nous détailler
+               <br>
+               votre commande,
+               plus elle sera détaillée, plus nous pourrons rester fidèle à vos rêves.
           </p>
      </main>
 
      <hr width="60%" />
 <!--hr (Horizontal right) permet de faire une ligne séparatrice-->
 
-     <section class="carouselboutique">
-          
-          <header>
-               <h1>Offres Sites web</h1>
-          </header>
 
-          <div class="carouselboutique-items">
-               <div class="offrepremiumsite">
-                    <h2 class="cardboutiquetitle1"> Offre "Premium"</h2>
-                    <p class="priceone">
-                         <span class="price">60€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
-                    </p>
-                    <h3>Cette offre premium est parfaite pour les petits <span class="linebreak"></span>business qui souhaitent se lancer, ou si vos <span class="linebreak"></span>projets ont besoin de reconnaissance !</h3>
-                    <p class="textpremiumsite">
-                         Comprend 8 pages, un SEO (Search Engine Optimisation)<span class="linebreak"></span> sur la page, l'intégration
-                         Google Maps et du téléchargement<span class="linebreak"></span> de contenu. <span class="italic">Comprend également l'offre "basique".</span>
-                         <span class="linebreak"></span>
-                    </p>
-                    <div>
-                         <a href="commande.html" class="boutonboutique">Contactez-nous</a>
-                    </div>
+     <header>
+          <h1>Offres Sites web</h1>
+     </header>
+     <section class="sitesweb">
+
+          <div class="tableaugris">
+               <h2 class="titletbgris">Offre "Premium"</h2>
+               <p class="prixtbgris">
+                    <span class="price">60</span><span class="bold">.00€</span> <span class="linebreak"></span>
+                    <span class="italic">À partir de</span>
+               </p>
+               <h3>Parfaite pour les petits business ou pour vos projets!</h3>
+               <p class="linestbgris">🎱 8 pages</p>
+               <p class="linestbgris">✔️ SEO (Search Engine Optimization)</p>
+               <p class="linestbgris">✔️ Intégration Google Maps</p>
+               <p class="linestbgris">✔️ Téléchargement de contenu</p>
+               <p class="linestbgris">❌ Page de paiement</p>
+               <p class="linestbgris">❌ Onglet de connexion</p>
+               <p class="linetbgrisspecial">Développement en 8 - 12 jours ouvrés.</p>
+               <div>
+                    <a href="commande.html" class="boutonboutique">Commandez maintenant</a>
                </div>
-               
-               <div class="offreprosite">
-                    <h2 class="cardboutiquetitle2">Offre "Pro"</h2>
-                    <p class="pricetwo">
-                         <span class="price">Uniquement sur devis</span>
-                    </p>
-                    <h3>L'offre Pro vous permettra de développer votre business ou votre projet, en recevant des paiements et en proposant des services !</h3>
-                    <p class="textprosite">
-                         Cette offre comprend l'offre "Premium" avec 15 pages, une page de paiement, des plugins illimités, un onglet de
-                         connexion et un panier.
-                    </p>
-                    <div>
-                         <a href="commande.html" class="boutonboutique">Commencez votre aventure</a>
-                    </div>
+          </div>
+
+          <div class="tableaudark">
+               <h2 class="titletbdark">Offre "Pro"</h2>
+               <p class="prixtbdark">
+                    <span class="price">Uniquement sur devis</span>
+               </p>
+               <h3>Développez votre business, votre projet et recevez des paiements!</h3>
+               <p class="linestbdark">✨Précédentes offres incluses!</p>
+               <p class="linestbdark">✔️ 15 pages</p>
+               <p class="linestbdark">✔️ Page de paiement/panier</p>
+               <p class="linestbdark">✔️ Plugins illimités</p>
+               <p class="linetbdarkspecial">Développement selon cahier des charges.</p>
+               <div>
+                    <a href="commande.html" class="boutonboutique">Commandez-ici</a>
                </div>
-               
-               <div class="offrebasiquesite">
-                    <h2 class="cardboutiquetitle3">Offre "basique"</h2>
-                    <p class="pricethree">
-                         <span class="price">40€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
-                    </p>
-                    <h3>Une offre basique, pour vos sites entres amis ou pour vos projets scolaires.</h3>
-                    <p class="textbasiquesite">
-                         Cette offre comprend 5 pages, elle est réactive avec des items réactifs (boutons, etc.).
-                         3 Plugins et/ou extensions sont inclus avec.
-                    </p>
-                    <div>
-                         <a href="commande.html" class="boutonboutique">Contactez-nous !</a>
-                    </div>
+          </div>
+
+          <div class="tableaubright">
+               <h2 class="titletbbright">Offre "basique"</h2>
+               <p class="prixtbbright">
+                    <span class="price">40</span><span class="bold">.00€</span> <span class="linebreak"></span>
+                    <span class="italic">À partir de</span>
+               </p>
+               <h3>Une offre basique pour vos sites entre amis ou projets scolaires.</h3>
+               <p class="linestbbright">✨Page réactives</p>
+               <p class="linestbbright">✋ 5 pages</p>
+               <p class="linestbbright">✔️ 3 plugins/extensions inclues</p>
+               <p class="linestbbright">❌ Page de paiement</p>
+               <p class="linestbbright">❌ Téléchargement de contenu</p>
+               <p class="linetbbrightspecial">Développement en 3 - 5 jours ouvrés.</p>
+               <div>
+                    <a href="commande.html" class="boutonboutique">Contactez-nous</a>
                </div>
           </div>
      </section>
      
      <hr width="60%" size="2 px"/>
      
+
+     <header>
+          <h1>Développement de Bot Discord</h1>
+     </header>
      <section class="botdiscord">
-          <header>
-               <h1>Développement de Bot Discord</h1>
-          </header>
           
           <div class="tableaugris">
                <h2 class="titletbgris">Bot de Modération</h2>
                <p class="prixtbgris">
                     <span class="price">20</span><span class="bold">.00€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
                </p>
-               <h3>Bot utilisé pour la modération d'un ou plusieurs serveurs.</h3>
+               <h3 class="grishtrois">Bot utilisé pour la modération d'un ou plusieurs serveurs.</h3>
                <p class="linestbgris">✔️ Auto-Modération</p>
                <p class="linestbgris">✔️ Commandes modération illimitées</p>
                <p class="linestbgris">❌ Support prioritaire</p>
                <p class="linestbgris">❌ Hébergement (1€/mois)</p>
                <p class="linetbgrisspecial">Développement en 3 - 5 jours ouvrés.</p>
+ 
                <div>
                     <a href="commande.html" class="boutonboutique">Commandez maintenant</a>
                </div>
@@ -117,7 +158,7 @@
                <p class="prixtbdark">
                     <span class="price">20</span><span class="bold">.00€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
                </p>
-               <h3>Bot utilisé pour des commandes simples, ou des fonctionnalités simples.</h3>
+               <h3>Bot utilisé pour des fonctionnalités simples.</h3>
                <p class="linestbdark">✨Badge "Développeur" sur Discord inclus!</p>
                <p class="linestbdark">✔️ Auto-Modération</p>
                <p class="linestbdark">✔️ Commandes simples illimitées</p>
@@ -132,9 +173,15 @@
           <div class="tableaubright">
                <h2 class="titletbbright">Bot avancé</h2>
                <p class="prixtbbright">
-                    <span class="price">Uniquement sur devis</span>
+                    <span class="price2">Uniquement sur devis</span>
+                    <style>
+                         .price2 {
+                              font-size: 45px;
+                              font-weight: 700;
+                         }
+                    </style>
                </p>
-               <h3>Ce bot avancé est parfait pour les personnes ayant un serveur nécessitant des mini-jeux, une connexion à minecraft ou encore même un bot multi-tâches!</h3>
+               <h3>Parfait pour les personnes ayant besoin de mini-jeux, de connexion à minecraft ou d'un bot multi-tâches!</h3>
                <p class="linestbbright">✨Badge Discord "Développeur" inclus!</p>
                <p class="linestbbright">✔️ Toutes les fonctionnalité</p>
                <p class="linestbbright">✔️ Commandes complexes illimitées</p>
@@ -149,10 +196,10 @@
 
 <hr width="60%">
 
+     <header>
+          <h1>Développement de Serveurs Minecraft</h1>
+     </header>
      <section class="devservmc">
-          <header>
-               <h1>Développement de Serveurs Minecraft</h1>
-          </header>
 
           <div class="tableaugris">
                <h2 class="titletbgris">Offre "Peaceful"</h2>
@@ -178,7 +225,7 @@
                <p class="prixtbdark">
                     <span class="price">45</span><span class="bold">.00€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
                </p>
-               <h3>Cette offre vous permet d'avoir un serveur destiné à une communauté de confiance, par exemple une communauté twitch, ou youtube.</h3>
+               <h3>Création d'un serveur destiné à une communauté de confiance, comme une communauté twitch, ou youtube.</h3>
                <p class="linestbdark">⭐ Comprend l'offre "Peaceful"</p>
                <p class="linestbdark">♾️ Ranks illimités</p>
                <p class="linestbdark">✔️ Permissions avancées</p>
@@ -200,9 +247,8 @@
                <h3>
                     Pour les plus gros serveurs aux grosses ambitions, un
                     service 100% personnalisé avec les plus grosses
-                    features, rien que pour vous !
+                    features
                </h3>
-               <p class="linestbbright"><strong>Comprend les deux offres précédentes</strong></p>
                <p class="linestbbright">✨ Tutoriel "comment modifier son serveur minecraft" <strong>Offert</strong></p>
                <p class="linestbbright">♾️ <strong>Ranks illimités</strong></p>
                <p class="linestbbright">♾️ <strong>Plugins illimités</strong></p>
@@ -219,49 +265,58 @@
 
 <hr width="60%" />
 
+     <header>
+          <h1>Pré-config minecraft et discord</h1>
+     </header>
      <section class="preconfig">
-          <header>
-               <h1>Pré-config minecraft et discord</h1>
-          </header>
 
           <div class="preconfigdiscord">
-               <h2>Pré-config discord</h2>
-               <p class="p1"><span class="bold">Vous ne voulez pas attendre?</span> Il vous faut<span class="linebreak"></span> un serveur tout de suite?</p>
-               <p class="p2">
-                    <span class="underline">Nous avons la solution: nous proposons des<span class="linebreak"></span> serveurs pré-configurés!<span class="linebreak"></span></span>
-                    Serveurs <span class="bold">communautaires</span>,<span class="bold">mini-jeux</span>,<span class="bold">business</span>, 
-                    <span class="bold">communauté influenceurs</span>, ou juste
-                    pour <span class="bold">vous<span class="linebreak"></span> et vos amis</span>, <span class="underline">Nous avons ce qu'il vous faut!</span>
-               </p>
-               <a href="https://discord.com/invite/nKmrsHdQ4v" class="boutonpage" >Recevez votre serveur ICI</a>
-               <div class="tmprcpdsc">
-                    <img src="../img/icons8-clock-64.png" alt="horloge rapide" class="fasttime">
-                    <p class="tempsreponse" >Temps moyen avant réception du <span class="linebreak"></span>  produit: 4 Minutes</p>
-               </div>
+               
+                  <div class="disccontainer">
+                         <h2>Pré-config Discord</h2>
+                         <p class="p1"><span class="bold">Vous ne voulez pas attendre?</span> Il vous faut un serveur tout de suite?</p>
+                         <p class="p2">
+                               <span class="underline">Nous avons la solution: nous proposons des serveurs pré-configurés!</span>
+                               Serveurs <span class="bold">communautaires</span>,<span class="bold">mini-jeux</span>,<span class="bold">business</span>,
+                               <span class="bold">communauté influenceurs</span>, ou juste pour <span class="bold">vous et vos amis</span>, <span class="underline">Nous avons ce qu'il vous faut!</span>
+                         </p>
+                         <a href="https://discord.com/invite/nKmrsHdQ4v" class="boutonpage">Recevez votre serveur ICI</a>
+                         <div class="tmprcpdsc">
+                               <img src="../img/icons8-clock-64.png" alt="horloge rapide" class="fasttime">
+                               <p class="tempsreponse">Temps moyen avant réception du produit: 4 Minutes</p>
+                         </div>
+                  </div>
+               
                <img src="../img/Discord-Basic-Offer.png" alt="Discord" class="imagediscord">
           </div>
 
           <div class="preconfigmc">
                <img src="../img/minecraft peaceful option serveurs.jpg" alt="peaceful minecraft scenary" class="imagemc">
-               <h2>Pré-config Minecraft</h2>
-               <p class="p1">Vous ne voulez pas vous embêter à créer un serveur, ou vous ne savez pas ce que vous voulez ?</p>
-               <p class="p2">
-                    <span class="bold">Nos pré-config sont faites pour vous</span>, rapide et peu onéreuses elles vous permettent <span class="linebreak"></span>
-                    d'expérimenter <span class="underline">sans conséquences</span>, ou d'avoir un <span class="underline">serveur qualitatif prêt à l'emploi!</span> <span class="linebreak"></span>
-                    Nous vos proposons des pré-config <span class="bold">faction</span>, <span class="bold">skyblock</span> et <span class="bold">mini-jeux</span> !
-               </p>
                
-               <p class="decoffres">Découvrez nos offres pré-config à partir de 10€</p>
-               <a href="https://discord.com/invite/nKmrsHdQ4v" class="boutonpage" >Recevez votre serveur ICI</a>
-               
-               <div class="tmprcpmc">
-                    <img src="../img/icons8-clock-64.png" alt="horloge rapide" class="fasttime">
-                    <p class="tempsreponse" >Temps de réception et de configuration moyen <span class="linebreak"> du produit: 11 minutes</p>
+                  <div class="mccontainer">
+                    <h2>Pré-config Minecraft</h2>
+                    <p class="p1">Vous ne voulez pas vous embêter à créer un serveur, ou vous ne savez pas ce que vous voulez ?</p>
+                    <p class="p2">
+                         <span class="bold">Nos pré-config sont faites pour vous</span>, rapide et peu onéreuses elles vous permettent 
+                         d'expérimenter <span class="underline">sans conséquences</span>, ou d'avoir un <span class="underline">serveur qualitatif prêt à l'emploi!</span> 
+                         Nous vos proposons des pré-config <span class="bold">faction</span>, <span class="bold">skyblock</span> et <span class="bold">mini-jeux</span> !
+                    </p>
+                    <a href="https://discord.com/invite/nKmrsHdQ4v" class="boutonpage" >Recevez votre serveur ICI</a>
+                    
+                    <div class="tmprcpmc">
+                         <img src="../img/icons8-clock-64.png" alt="horloge rapide" class="fasttime">
+                         <p class="tempsreponse" >Temps de réception et de configuration moyen <span class="linebreak"> du produit: 11 minutes</p>
+                    </div>
                </div>
           </div>
      </section>
 
 <hr width="60%">
+
+
+     <header>
+          <h1>Plugins Minecraft</h1>
+     </header>
 
      <section class="devplugins">
 
@@ -270,9 +325,7 @@
                <p class="prixtbgris">
                     <span class="price">20</span><span class="bold">.00€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
                </p>
-               <h3>Description rapide du produit</h3>
-               <p class="linestbgris">Cette offre vous permettra de donner vie à vos idées les plus simples (par exemple un système de home).</p>
-               <p class="linestbgris">✔️ Fonctionnalités basiques</p>
+               <h3>Cette offre vous permettra de donner vie à vos idées les plus simples (par exemple un système de home).</h3>
                <p class="linestbgris">✔️ Commandes simples</p>
                <p class="linestbgris">✔️ Assistance 2 semaines</p>
                <p class="linestbgris">✔️ Fichier de configuration</p>
@@ -289,7 +342,7 @@
                <p class="prixtbdark">
                     <span class="price">50</span><span class="bold">.00€</span> <span class="linebreak"></span><span class="italic">À partir de</span>
                </p>
-               <h3>Une offre plus avancée, qui vous permettra de voir naître vos idées les plus complètes!</h3>
+               <h3>Une offre Pour faire naître vos idées les plus complètes!</h3>
                <p class="linestbdark">✔️ Fonctionnalités de jeu</p>
                <p class="linestbdark">✔️ Assistance de 1 mois</p>
                <p class="linestbdark">✔️ Fichier de configuration</p>
@@ -304,7 +357,7 @@
           <div class="tableaubright">
                <h2 class="titletbbright">Plugin Premium</h2>
                <p class="prixtbbright">
-                    <span class="prixbrighttb">Uniquement sur devis</span><span class="linebreak"></span>
+                    <span class="price2">Uniquement sur devis</span>
                </p>
                <h3>Un plugin qui saura ravir créateurs de serveurs, joueurs solo ou joueurs professionnels.</h3>
                <p class="linestbbright">✔️ Accès à toutes les possibilités</p>
@@ -321,7 +374,7 @@
 
 <hr width="60%">
      
-<section>
+<section class="graphismesec">
      <div class="tableaudark">
           <h2 class="titletbdark">Graphisme</h2>
           <p class="prixtbdark">
@@ -357,57 +410,59 @@
 
      </section>
 
-     <section class="banniere">
+     <div class="banniere">
           <div class="liensutiles">
                <p>
-                    <div><span class="bannieretitle">Liens utiles</span><span class="linebreak"></span></div>
-                    <a href="index.html" class="lienbanniere">Page d'accueil</a><span class="linebreak"></span>
-                    <a href="commande.html" class="lienbanniere">Commandez ici!</a><span class="linebreak"></span>
-                    <a href="boutique.html" class="lienbanniere">Nos Services</a><span class="linebreak"></span>
-                    <a href="detailservices.html" class="lienbanniere">Tarifs Détaillés</a><span class="linebreak"></span>
-                    <a href="credits.html" class="lienbanniere">Crédits</a><span class="linebreak"></span>
-                    <a href="contact.html" class="lienbanniere">Contactez-nous</a><span class="linebreak"></span>
+               <div><span class="bannieretitle">Liens utiles</span><span class="linebreak"></span></div>
+               <a href="index.html" class="lienbanniere">Page d'accueil</a><span class="linebreak"></span>
+               <a href="commande.html" class="lienbanniere">Commandez ici!</a><span class="linebreak"></span>
+               <a href="boutique.html" class="lienbanniere">Nos Services</a><span class="linebreak"></span>
+               <a href="detailservices.html" class="lienbanniere">Tarifs Détaillés</a><span class="linebreak"></span>
+               <a href="credits.html" class="lienbanniere">Crédits</a><span class="linebreak"></span>
+               <a href="contact.html" class="lienbanniere">Contactez-nous</a><span class="linebreak"></span>
                </p>
           </div>
           <div class="aproposdenous">
                <p>
-                   <span class="bannieretitle">À propos de nous</span>
-                   <span class="linebreak"></span>
+                    <span class="bannieretitle">À propos de nous</span>
+                    <span class="linebreak"></span>
                </p>
                <p class="bannieretextpropos">
-                   Lancé en 2020, EPITYGMATA vous propose de donner vie à vos idées, que
-                   ce soit en développant ou en vous proposant des services de graphisme.
-                   <span class="linebreak"></span>
-                   <span class="citationgael">"Nous essayons de vous proposer l'expérience la plus transparente et
-                   agréable possible, n'hésitez pas à nous laisser un avis pour témoigner de
-                   votre expérience chez nous !"</span>
-                   <span class="linebreak"></span>
+                    Lancé en 2020, EPITYGMATA vous propose de donner vie à vos idées,
+                    <br>
+                    que ce soit en développant ou en vous proposant des services de graphisme.
+                    <br>
+                    <span class="citationgael">"Nous essayons de vous proposer l'expérience la plus transparente et
+                         agréable possible,
+                         <br> n'hésitez pas à nous laisser un avis pour témoigner de votre expérience chez nous !"</span>
+                    <span class="linebreak"></span>
                </p>
                <p class="gaelcitation">
-                   - Gaël Tournier, CEO d'EPITYGMATA.
+                    - Gaël Tournier, CEO d'EPITYGMATA.
                </p>
-           </div>
+          </div>
           <div class="nousjoindre">
                <p>
-                    <span class="nousjoindrebannieretitle">Nous joindre</span> 
-                    <div>
-                              <img src="../img/comment.png" alt="icone comment" class="iconcomment">
-                              <a href="contact.html">Contactez-nous</a>
-                    </div>
-                    <div>
-                              <img src="../img/email.png" alt="icône email" class="iconmail">
-                              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gael.tournier@epitygmata.fr">gael.tournier@epitygmata.fr</a>
-                    </div>
-                    <div>
-                              <img src="../img/discord.png" alt="icône discord" class="icondiscord">
-                              <a href="https://discord.gg/nKmrsHdQ4v">Rejoins notre discord !</a>
-                    </div>
+                    <span class="nousjoindrebannieretitle">Nous joindre</span>
+               <div>
+                    <img src="../img/comment.png" alt="icone comment" class="iconcomment">
+                    <a href="contact.html">Contactez-nous</a>
+               </div>
+               <div>
+                    <img src="../img/email.png" alt="icône email" class="iconmail">
+                    <a
+                         href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=gael.tournier@epitygmata.fr">gael.tournier@epitygmata.fr</a>
+               </div>
+               <div>
+                    <img src="../img/discord.png" alt="icône discord" class="icondiscord">
+                    <a href="https://discord.gg/nKmrsHdQ4v">Rejoins notre discord !</a>
+               </div>
                </p>
           </div>
-          <div class="copyright">
-               <p>Copyright © Epitygmata </p>
-          </div>
-     </section>
+     </div>
+     <div class="copyright">
+          <p>Copyright © Epitygmata </p>
+     </div>
 
 
 

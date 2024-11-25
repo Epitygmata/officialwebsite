@@ -1,0 +1,80 @@
+
+body {
+     margin: 0px;
+}
+
+h1 {
+     font-size: 50px;
+     color: #333;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-bottom: 0px;
+}
+
+.titletarifs {
+     text-align: center;
+     margin-left: 0px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.texttarifs {
+     margin-left: 355px;
+     font-size: 20px;
+     margin-bottom: 5px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flexcontainer {
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     margin-left: 317px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     gap: 60px;
+     padding-bottom: 10px;
+}
+
+.listanchors {
+     list-style-type: none;
+}
+.listanchors a {
+     color: rgb(88, 88, 88);
+     text-decoration: none;
+     font-size: 19px;
+}
+/*Add a hover anim that makes it a little more black*/
+
+.listanchors li {
+     margin-bottom: 7px;
+}
+
+
+
+
+/*big text*/
+h2 {
+     font-size: 30px;
+     color: #333;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-bottom: 0px;
+     margin-top: 0px;
+}
+
+.container2 p {
+     font-size: 18px;
+}
+.graptrfs {
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+}
+.graptrfs a {
+     color: rgb(14, 162, 210);
+     text-decoration: underline 1px rgb(14, 162, 210);
+}
+
+.boutoncommandetarifs {
+     color: black;
+     background-color: rgb(14, 162, 210);
+     text-decoration: none;
+     padding: 15px;
+     border-radius: 25px;
+     margin-left: 400px;
+}

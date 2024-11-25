@@ -7,16 +7,18 @@ html, body {
 
 .titlepage {
      text-align: center;
-     font-size: 40px;
+     font-size: 70px;
      font-weight: 600;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  color: rgb(33, 37, 41);
+  margin-bottom: 0px;
 }
 
 .citation {
      text-align: center;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      color: rgb(24, 87, 99);
+
 }
 
 .linebreak{
@@ -26,16 +28,10 @@ html, body {
 /* copié collé de style.css*/
 .mainavis {
      display: flex;
-     flex-direction: column; 
-     /*It turns the box into a column instead of a row (default)*/
-     justify-content: space-evenly;
-     /*It makes the items be spread evenly in the main axis (the depth axis)*/
+     flex-direction: row; 
+     justify-content: center;
      align-items: start;
-     /*same but on the cross axis (side axis)*/
      flex-wrap: wrap;
-     /*it makes the items not crush eachothers (default: nowrap*/
-     gap: 1em;
-     /*add a gap between items*/
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      margin-left: 0px; 
      background-color: #f3f2f2;
@@ -167,18 +163,27 @@ html, body {
    /* fin copié collé de style.css*/
 
 .laissezavis {
-  background-color: #70b7b9;
+  background-color: rgb(0, 124, 146);
   margin-top: 0;
   padding-bottom: 20px;
   padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 910px;
 }
-
+.laissezaviscontainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 270px;
+  flex-wrap: nowrap;
+}
 
 
 .laissezavis h1{
   font-size: 30;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-left: 15px;
+  margin-bottom: 0px;
 }
 
 .laissezavis p{
@@ -191,119 +196,17 @@ html, body {
 }
 
 .laissezavis a{
-  background-color: #447572;
+  background-color: #498582;
   border-radius: 30px;
   padding: 10px;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 3px 0px #1b1b1b;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-left: 360px;
-}
-
-/*Banniere C/C*/
-.banniere {
-  background-color: #245362;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-}
-/* Parametres généraux*/
-.liensutiles span{
-  margin-left: 15px;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 500;
-  margin-top: 0px;
-  display: block;
-}
-.liensutiles div{
-  padding-bottom: 10px;
-  margin-top: 0px;
-}
-
-.lienbanniere {
-  text-decoration: underline 0.5px;
-  color: #7dbea6;
-  margin-left: 15px;
-  margin-top: 0px;
-}
-/*fin des liens*/
-
-/*Début du à propos*/
-.bannieretitle {
-  margin-left: 15px;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 500;
-  padding-top: 20px;
-  display: block;
-}
-
-.bannieretextpropos {
-  margin-left: 15px;
-  color: #ffffff;
-  font-size: 16px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.citationgael {
-  font-style: italic;
-}
-.gaelcitation {
-  font-weight: 500;
-  font-size: 17px;
-  padding-top: 1px;
-  display: block;  
-  color: #ffffff;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-left: 15px;
-}
-/*fin du à Propos*/
-/*Début de "nous joindre*/
-
-.nousjoindrebannieretitle {
-  margin-left: 15px;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 500;
-  display: block;
-  padding-top: 20px;
-}
-
-.iconcomment {
-  width: 20px;
-  height: auto;
-  margin-left: 5px;
-}
-.iconmail {
-  width: 20px;
-  height: auto;
-  margin-left: 5px;
-}
-.icondiscord {
-  width: 20px;
-  height: auto;
-  margin-left: 5px;
-}
-
-.nousjoindre a{
-  text-decoration: underline 0.5px;
-  color: #7dbea6;
-  margin-left: 15px;
-}
-
-.copyright p{
-  text-align: center;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #1f4753;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 0px;
+  margin-left: 0px;
+  height: 50%;
+  margin: auto 0;
 }
