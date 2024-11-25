@@ -12,6 +12,7 @@ TODO:
 - [ ] Design: make some animations
 - [ ] make the "listanchor" in detailservices.html stick to the scroll
 - [ ] Design: Add the logo to every tabs
+- [ ] Design: Animations on detailsservices.html
 
 
 Palette: 
