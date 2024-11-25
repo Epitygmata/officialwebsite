@@ -62,3 +62,11 @@
 .boutonboutique:hover {
      background-color: rgb(57, 99, 96);
 }
+
+
+/*Details services animations*/
+.boutoncommandetarifs:hover {
+     background-color: rgb(10, 130, 170);
+     cursor: pointer;
+     transform: scale(1.2);
+}

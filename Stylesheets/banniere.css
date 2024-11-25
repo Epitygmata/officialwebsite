@@ -39,6 +39,9 @@
   margin-left: 15px;
   margin-top: 0px;
 }
+.lienbanniere:hover {
+  color: #ffffff;
+}
 /*fin des liens*/
 
 /*Début du à propos*/
@@ -103,6 +106,9 @@
   text-decoration: underline 0.5px;
   color: #7dbea6;
   margin-left: 15px;
+}
+.nousjoindre a:hover {
+  color: #ffffff;
 }
 
 .copyright p{

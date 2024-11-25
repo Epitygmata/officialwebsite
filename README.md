@@ -10,10 +10,12 @@ TODO:
 - [ ] Design: Add a portfolio section
 - [x] Design: Fix the search bar 
 - [ ] Design: make some animations
+- [ ] make the "listanchor" in detailservices.html stick to the scroll
+- [ ] Design: Add the logo to every tabs
 
 
 Palette: 
-rgb(14,162,210) (bleu clair)
+rgb(14,162,210) (bleu clair) -> Variante pour hover : rgb(10, 130, 170)
 #1e899e (bleu foncé)
 #373d44 (couleur titres)
 rgb(33,37,41) (couleur texte)
