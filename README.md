@@ -13,6 +13,7 @@ TODO:
 - [ ] make the "listanchor" in detailservices.html stick to the scroll
 - [ ] Design: Add the logo to every tabs
 - [ ] Design: Animations on detailsservices.html
+- [ ] Add a promo code section
 
 
 Palette: 
